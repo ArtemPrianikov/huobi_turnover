@@ -12,7 +12,7 @@ cd huobi_turnover folder
 ```
 3. In command line: 
 ```sh
-sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/activate && pip3 install --upgrade pip && pip3 install -r requirements.txt && pyt="$(pwd)/venv/bin/python3"
+sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/activate && pip3 install --upgrade pip && pip3 install -r requirements.txt
 ```
 
 ## Usage
