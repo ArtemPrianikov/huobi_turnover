@@ -10,9 +10,6 @@ script make automated trades to get a needed amount of turnover
 
 BEFORE USING make sure you have ```settings.txt``` with huobi api keys in the same folder (pls see example)
 
-LAUNCH:
-```~/houbi_turnover/venv/bin/python3 ~/houbi_turnover/main.py```
-
 1. Make turnover up to 1205$:
 ```~/houbi_turnover/venv/bin/python3 ~/houbi_turnover/main.py -t 1205```
 
