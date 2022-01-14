@@ -6,8 +6,14 @@ script make automated trades to get a needed amount of turnover
 ```sh
 cd ~/ && git clone git@github.com:tamnan/huobi_turnover.git
 ```
-2. Enter the huobi_turnover folder:```cd the huobi_turnover folder```
-4. In command line: ```sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/activate && pip3 install --upgrade pip && chmod +x main.py && pip3 install -r requirements.txt && pyt="$(pwd)/venv/bin/python3"```
+2. Enter the huobi_turnover folder:
+```sh
+cd the huobi_turnover folder
+```
+3. In command line: 
+```sh
+sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/activate && pip3 install --upgrade pip && chmod +x main.py && pip3 install -r requirements.txt && pyt="$(pwd)/venv/bin/python3"
+```
 
 ## Usage
 
