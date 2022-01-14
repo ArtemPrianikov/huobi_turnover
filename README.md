@@ -19,9 +19,11 @@ sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/
 
 BEFORE USING make sure you have ```settings.txt``` with huobi api keys in the same folder (pls see example)
 
-1. Make turnover up to 1205$:
-```~/houbi_turnover/venv/bin/python3 ~/houbi_turnover/main.py -t 1205```
+1. ```cd ~/huobi_turnover```
+
+2. Make turnover up to 1205$:
+```venv/bin/python3 main.py -t 1205```
 
 2. Make turnover up to 1205$ and print process into the terminal:
-```~/houbi_turnover/venv/bin/python3 ~/houbi_turnover/main.py -t 1205 -v debug```
+```venv/bin/python3 main.py -t 1205 -v debug```
 
