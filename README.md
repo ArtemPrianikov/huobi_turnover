@@ -8,7 +8,7 @@ cd ~/ && git clone git@github.com:tamnan/huobi_turnover.git
 ```
 2. Enter the huobi_turnover folder:
 ```sh
-cd huobi_turnover
+cd ~/huobi_turnover
 ```
 3. In command line: 
 ```sh
