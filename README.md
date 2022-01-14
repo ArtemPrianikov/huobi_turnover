@@ -8,7 +8,7 @@ script make automated trades to get a needed amount of turnover
 
 ## Usage
 
-BEFORE USING make sure you have settings.txt with huobi api keys in the same folder (pls see example)
+BEFORE USING make sure you have ```settings.txt``` with huobi api keys in the same folder (pls see example)
 
 1. Make turnover up to 1205$:
 ```$pyt main.py -t 1205```
