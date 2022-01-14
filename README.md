@@ -7,6 +7,9 @@ script make automated trades to get a needed amount of turnover
 3. In command line: ```sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/activate && pip3 install --upgrade pip && chmod +x main.py && pip3 install -r requirements.txt && pyt="$(pwd)/venv/bin/python3"```
 
 ## Usage
+
+BEFORE USING make sure you have settings.txt with huobi api keys in the same folder (pls see example)
+
 1. Make turnover up to 1205$:
 ```$pyt main.py -t 1205```
 
