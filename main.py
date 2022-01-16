@@ -7,6 +7,7 @@ import argparse
 import os, sys
 import logging
 from huobi import HuobiRestClient
+from random import randint
 
 # setup paths
 current_path = os.path.dirname(__file__)
@@ -296,7 +297,10 @@ for index, wallet_key_pair in enumerate(tqdm(keys_list_splitted[:])):
             item['error']=1
             save_dict_line('operations.csv', item)
             break
-         
+    
+    main.debug(f'----- pause ------')
+    time.sleep(randint(1,4))
+    
 elapsed_time = datetime.now()-start_time
 try:
     average_trade_processing_duration = elapsed_time/global_trades_counter
