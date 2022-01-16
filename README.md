@@ -19,11 +19,13 @@ sudo apt-get install -y python3-venv && python3 -m venv venv && source venv/bin/
 
 BEFORE USING make sure you have ```settings.txt``` with huobi api keys in the same folder (pls see example)
 
+FOR PROPER trading you must give current solana price to the script as an argument -p:
+
 1. ```cd ~/huobi_turnover```
 
 2. Make turnover up to 1205$:
-```venv/bin/python3 main.py -t 1205```
+```venv/bin/python3 main.py -t 1205 -p 145```
 
 2. Make turnover up to 1205$ and print process into the terminal:
-```venv/bin/python3 main.py -t 1205 -v debug```
+```venv/bin/python3 main.py -t 1205 -p 145 -v debug```
 
