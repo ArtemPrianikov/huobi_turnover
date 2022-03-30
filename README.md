@@ -1,5 +1,5 @@
 # huobi_turnover
-script make automated trades to get a needed amount of turnover
+script makes automated trades to get a needed amount of turnover. It trades solusdt pair. So your initial balance must be in solusdt or usdt, make sure you have it
 
 ## Setup
 1. clone repo
@@ -23,9 +23,9 @@ FOR PROPER trading you must give current solana price to the script as an argume
 
 1. ```cd ~/huobi_turnover```
 
-2. Make turnover up to 1205$:
+2. Make turnover up to 1205$ trading by solusdt pair, keeping in mind solana price 145$:
 ```venv/bin/python3 main.py -t 1205 -p 145```
 
-2. Make turnover up to 1205$ and print process into the terminal:
+2. Make turnover up to 1205$ with solusdt current price equal to 145$ and print process into the terminal:
 ```venv/bin/python3 main.py -t 1205 -p 145 -v debug```
 
